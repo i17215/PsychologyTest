@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		90880FD61FB7187F00275D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FD51FB7187F00275D99 /* AppDelegate.swift */; };
-		90880FD81FB7187F00275D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FD71FB7187F00275D99 /* ViewController.swift */; };
+		90880FD81FB7187F00275D99 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FD71FB7187F00275D99 /* StartScreenViewController.swift */; };
 		90880FDB1FB7187F00275D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90880FD91FB7187F00275D99 /* Main.storyboard */; };
 		90880FDD1FB7187F00275D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90880FDC1FB7187F00275D99 /* Assets.xcassets */; };
 		90880FE01FB7187F00275D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90880FDE1FB7187F00275D99 /* LaunchScreen.storyboard */; };
 		90880FE81FB7195500275D99 /* OxfordHappinessTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */; };
+		90880FEC1FB722D000275D99 /* TestsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FEB1FB722D000275D99 /* TestsListViewController.swift */; };
+		90880FEE1FB7236700275D99 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FED1FB7236700275D99 /* TestViewController.swift */; };
+		90880FF01FB723A000275D99 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FEF1FB723A000275D99 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90880FD21FB7187F00275D99 /* PsychologyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychologyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90880FD51FB7187F00275D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90880FD71FB7187F00275D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90880FD71FB7187F00275D99 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		90880FDA1FB7187F00275D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90880FDC1FB7187F00275D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90880FDF1FB7187F00275D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90880FE11FB7187F00275D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxfordHappinessTestData.swift; sourceTree = "<group>"; };
+		90880FEB1FB722D000275D99 /* TestsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsListViewController.swift; sourceTree = "<group>"; };
+		90880FED1FB7236700275D99 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		90880FEF1FB723A000275D99 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		90880FD41FB7187F00275D99 /* PsychologyTest */ = {
 			isa = PBXGroup;
 			children = (
+				90880FEA1FB7229800275D99 /* View Controllers */,
+				90880FE91FB7228A00275D99 /* Data Source */,
 				90880FD51FB7187F00275D99 /* AppDelegate.swift */,
-				90880FD71FB7187F00275D99 /* ViewController.swift */,
-				90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */,
 				90880FD91FB7187F00275D99 /* Main.storyboard */,
 				90880FDC1FB7187F00275D99 /* Assets.xcassets */,
 				90880FDE1FB7187F00275D99 /* LaunchScreen.storyboard */,
 				90880FE11FB7187F00275D99 /* Info.plist */,
 			);
 			path = PsychologyTest;
+			sourceTree = "<group>";
+		};
+		90880FE91FB7228A00275D99 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		90880FEA1FB7229800275D99 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90880FD71FB7187F00275D99 /* StartScreenViewController.swift */,
+				90880FEB1FB722D000275D99 /* TestsListViewController.swift */,
+				90880FED1FB7236700275D99 /* TestViewController.swift */,
+				90880FEF1FB723A000275D99 /* ResultsViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90880FD81FB7187F00275D99 /* ViewController.swift in Sources */,
+				90880FEE1FB7236700275D99 /* TestViewController.swift in Sources */,
+				90880FD81FB7187F00275D99 /* StartScreenViewController.swift in Sources */,
 				90880FD61FB7187F00275D99 /* AppDelegate.swift in Sources */,
+				90880FEC1FB722D000275D99 /* TestsListViewController.swift in Sources */,
 				90880FE81FB7195500275D99 /* OxfordHappinessTestData.swift in Sources */,
+				90880FF01FB723A000275D99 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
