@@ -12,6 +12,7 @@
 		90880FDB1FB7187F00275D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90880FD91FB7187F00275D99 /* Main.storyboard */; };
 		90880FDD1FB7187F00275D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90880FDC1FB7187F00275D99 /* Assets.xcassets */; };
 		90880FE01FB7187F00275D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90880FDE1FB7187F00275D99 /* LaunchScreen.storyboard */; };
+		90880FE81FB7195500275D99 /* OxfordHappinessTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90880FDC1FB7187F00275D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90880FDF1FB7187F00275D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90880FE11FB7187F00275D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxfordHappinessTestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				90880FD51FB7187F00275D99 /* AppDelegate.swift */,
 				90880FD71FB7187F00275D99 /* ViewController.swift */,
+				90880FE71FB7195500275D99 /* OxfordHappinessTestData.swift */,
 				90880FD91FB7187F00275D99 /* Main.storyboard */,
 				90880FDC1FB7187F00275D99 /* Assets.xcassets */,
 				90880FDE1FB7187F00275D99 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				90880FD81FB7187F00275D99 /* ViewController.swift in Sources */,
 				90880FD61FB7187F00275D99 /* AppDelegate.swift in Sources */,
+				90880FE81FB7195500275D99 /* OxfordHappinessTestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HEF9E2MMFK;
 				INFOPLIST_FILE = PsychologyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwt.PsychologyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HEF9E2MMFK;
 				INFOPLIST_FILE = PsychologyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwt.PsychologyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
