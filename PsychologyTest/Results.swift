@@ -18,7 +18,7 @@ import Foundation
 //
 //81 — 100 высокий показатель.
 
-enum Results {
+enum LevelOfHappiness {
     case low
     case reduced
     case middle
@@ -26,5 +26,7 @@ enum Results {
     case hight
 }
 
-
+class Results {
+    
+}
 
