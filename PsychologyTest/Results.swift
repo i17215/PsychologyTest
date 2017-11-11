@@ -27,6 +27,6 @@ enum LevelOfHappiness {
 }
 
 class Results {
-    
+    let a = 0
 }
 
