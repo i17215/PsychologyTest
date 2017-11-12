@@ -10,12 +10,12 @@ import UIKit
 
 class TestListViewCell: UITableViewCell {
     
-    @IBOutlet weak var testName: UILabel!
+    @IBOutlet weak var testLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        
+        testLabel.text = "Оксфордский опросник счастья (OHI)"
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -23,5 +23,4 @@ class TestListViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }
